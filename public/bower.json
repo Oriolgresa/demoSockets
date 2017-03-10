@@ -1,0 +1,21 @@
+{
+  "name": "public",
+  "authors": [
+    "Oriol Gresa Solsona <07uri07@gmail.com>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "angular": "^1.6.3"
+  }
+}
