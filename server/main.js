@@ -8,8 +8,8 @@ var server = require('http').Server(app);
 var io = require('socket.io')(server);
 
 var messages = [{
-	author: "Oriol",
-	text: "Hola"
+	author: "oriol",
+	text: "hola"
 }];
 
 
@@ -26,5 +26,5 @@ io.on('connection', function (socket) {
 });
 
 server.listen(3010, function () {
-    console.log("servidor corriendo en http://192.168.1.107:3010");
+    console.log("servidor corriendo en http://localhost:3010");
 });

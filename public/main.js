@@ -6,7 +6,7 @@
 var MainApp = angular.module('MainApp', ['luegg.directives']);
 
 MainApp.controller('core', function ($scope) {
-    var socket = io.connect('http://192.168.1.107:3010');
+    var socket = io.connect('http://localhost:3010');
     $scope.glued = true;
 
     socket.on('messages', function (data) {
